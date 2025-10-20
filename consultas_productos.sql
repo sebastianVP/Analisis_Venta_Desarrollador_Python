@@ -1,4 +1,5 @@
--- CONSULTA: 3 PRODUCTOS MÁS VENDIDOS, Selecciona los productos con mayor cantidad total vendida
+-- CONSULTA: 3 PRODUCTOS MÁS VENDIDOS, 
+-- Seleccionamos los productos con mayor cantidad total vendida
 SELECT 
     producto,
     SUM(cantidad) AS total_vendida
